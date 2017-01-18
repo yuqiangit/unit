@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: langlive * Date: 16/11/30 * Time: 下午4:55 */$input = array("a", "b", "c", "d", "e");//$output = array_chunk($input,10);//var_dump($output);var_dump(array_slice($input,0,3));
