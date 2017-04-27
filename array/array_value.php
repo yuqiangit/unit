@@ -5,5 +5,10 @@
  * Date: 16/12/5
  * Time: 下午12:18
  */
-$array = ['100','100','101','120','100','100','120','101'];
-var_dump(array_values($array));exit;
+//$array = ['100','100','101','120','100','100','120','101'];
+//var_dump(array_values($array));exit;
+
+
+$array = ['name'=>'zhangshan'];
+var_dump(array_keys($array)[0]);
+var_dump(array_values($array)[0]);
